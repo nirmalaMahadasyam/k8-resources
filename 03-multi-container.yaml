@@ -1,4 +1,4 @@
-kind: Pod
+kind: multi
 apiVersion: v1
 metadata:
   name: multi-container
@@ -9,3 +9,5 @@ spec:
   - name: alma
     image: "almalinux:9"
     command: ["sleep","2000"]
+
+    # same network sharing so we can access both the containers.(inside the pod)
