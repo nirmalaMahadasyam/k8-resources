@@ -6,3 +6,6 @@ spec:
   containers:
   - name: nginx # list the containers
     image: nginx
+
+    # pod: inside the pod .....asigned default or nginx-->pull the image --> create containers and start the container.
+    # same as create docker container.
