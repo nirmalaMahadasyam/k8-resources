@@ -1,4 +1,4 @@
-kind: container
+kind: Multicontainer
 apiVersion: v1
 metadata:
   name: multi-container
