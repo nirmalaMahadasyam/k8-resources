@@ -1,0 +1,7 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: expense # metadata.... extra info, projectname,version etc...
+  labels:
+    name: expense # label name we can give any name.
+    environment: dev
