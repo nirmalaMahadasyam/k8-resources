@@ -1,4 +1,4 @@
-kind: multi
+kind: multicont
 apiVersion: v1
 metadata:
   name: multi-container
