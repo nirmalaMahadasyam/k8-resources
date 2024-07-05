@@ -4,7 +4,7 @@ metadata:
   name: daws78s
 data:
   course: "DevOps with AWS"
-  trainer: "sivakumar"
-  github: "https://github.com/daws-78s/k8-resources"
+  trainer: "nirmala"
+  github: "https://github.com/nirmalaMahadasyam/k8-resources.git"
 
   # some data we want to store in config-map(plain data it is not that much confidential)
