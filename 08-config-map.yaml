@@ -6,3 +6,5 @@ data:
   course: "DevOps with AWS"
   trainer: "sivakumar"
   github: "https://github.com/daws-78s/k8-resources"
+
+  # some data we want to store in config-map(plain data it is not that much confidential)

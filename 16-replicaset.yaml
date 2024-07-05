@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx
+  # these labels belongs to replicaset resource
+  labels:
+    app: nginx
+    tier: frontend
+spec:
+  # modify replicas according to your case
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: frontend # this data (1)
+      app: nginx
+  # below is pod definition
+  template:
+    metadata:
+      labels:
+        tier: frontend  # this poddata -----data(2) is same as the selector......data(1).ddata2 may have more parameters its not an issue.
+        app: nginx
+        project: some-project
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:stable-perl
